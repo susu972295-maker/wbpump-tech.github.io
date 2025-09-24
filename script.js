@@ -13,6 +13,11 @@ function scrollToContact() {
     scrollToSection('contact');
 }
 
+function openLineOfficial() {
+    // Line 官方帳號連結
+    window.open('https://line.me/R/ti/p/@367ezjsl', '_blank');
+}
+
 // 表單處理功能
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.contact-form form');

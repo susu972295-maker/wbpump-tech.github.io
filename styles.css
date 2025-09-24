@@ -197,6 +197,19 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-line {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.btn-line:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
 .hero-image {
     animation: fadeInRight 1s ease-out;
 }
@@ -597,7 +610,7 @@ footer p {
     
     .hero {
         padding: 100px 0 40px 0;
-        min-height: 60vh;
+        min-height: 80vh;
     }
     
     .hero-content {
@@ -684,15 +697,15 @@ footer p {
     }
     
     .company-name {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     
     .btn {
@@ -703,6 +716,12 @@ footer p {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 280px;
     }
     
     .section-title {
