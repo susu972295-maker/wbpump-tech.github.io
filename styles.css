@@ -40,6 +40,7 @@ body {
     width: 100%;
     z-index: 1000;
     transition: var(--transition);
+    height: 70px;
 }
 
 .navbar .container {
@@ -121,6 +122,7 @@ body {
     min-height: 70vh;
     display: flex;
     align-items: center;
+    margin-top: 70px;
 }
 
 .hero-content {
@@ -609,7 +611,7 @@ footer p {
     }
     
     .hero {
-        padding: 100px 0 40px 0;
+        padding: 120px 0 40px 0;
         min-height: 80vh;
     }
     
@@ -693,7 +695,7 @@ footer p {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 40px 0;
+        padding: 100px 0 40px 0;
     }
     
     .company-name {
